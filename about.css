@@ -1,0 +1,54 @@
+body {
+  background: #33425B;
+  font-family: 'Oswald', sans-serif;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  left: 50%;
+  margin-left: -28%;
+}
+
+h1 {
+  font-size: 15px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  color: #728096;
+  font-weight: normal;
+}
+
+#cow {
+  cursor: all-scroll;
+}
+
+#bang {
+  visibility: hidden;
+}
+
+#boundingBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 700px) {
+  svg {
+    width: 100%;
+    margin-left: -50%;
+  }
+}
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 25px;
+    width: 100%;
+    margin-left: -4%;
+  }
+
+  svg {
+    margin-top: -20px;
+  }
+}
