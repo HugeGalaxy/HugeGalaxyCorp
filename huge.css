@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
+body {
+  font: 14px/1 "PT Sans Narrow", sans-serif;
+  background: url(str.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #626668;
+  text-align: center;
+  overflow: scroll;
+}
+
+h1 {
+  color: white;
+  font-size: 12vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  font-size: 7vw;
+}
+
+.shadow {
+  text-shadow: 1px 1px #4A744D, 2px 2px #4A744D, 3px 3px #4A744D, 4px 4px #4A744D, 5px 5px #4A744D, 6px 6px #4A744D, 7px 7px #4A744D, 8px 8px #4A744D;
+}
