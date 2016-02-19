@@ -16,13 +16,28 @@ h1 {
   font-size: 12vw;
   font-weight: bold;
   text-transform: uppercase;
-  position: relative;
+  position: fixed;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
   color: white;
-  font-size: 7vw;
-  position: relative;
+  font-size: 6vw;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3  {
+  color: white;
+  font-size: 5vw;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .shadow {
