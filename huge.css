@@ -10,14 +10,14 @@ body {
 
 h1 {
   color: white;
-  font-size: 9vw;
+  font-size: 10vw;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 h2 {
   color: white;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 .shadow {
