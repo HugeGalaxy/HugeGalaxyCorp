@@ -16,11 +16,13 @@ h1 {
   font-size: 12vw;
   font-weight: bold;
   text-transform: uppercase;
+  position: relative;
 }
 
 h2 {
   color: white;
   font-size: 7vw;
+  position: relative;
 }
 
 .shadow {
