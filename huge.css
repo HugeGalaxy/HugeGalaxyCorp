@@ -8,7 +8,7 @@ body {
   background-size: cover;
   color: #626668;
   text-align: center;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 h1 {
